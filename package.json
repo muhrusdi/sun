@@ -9,8 +9,8 @@
   },
   "devDependencies": {
     "@nuxt/test-utils": "^3.8.1",
-    "@types/node": "^20.10.1",
-    "nuxt": "^3.9.1",
+    "@types/node": "^20.10.8",
+    "nuxt": "^3.9.3",
     "vitest": "^1.1.1"
   },
   "dependencies": {
@@ -19,7 +19,7 @@
     "autoprefixer": "^10.4.16",
     "pinia": "^2.1.7",
     "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5",
-    "vee-validate": "^4.12.2"
+    "tailwindcss": "^3.4.1",
+    "vee-validate": "^4.12.4"
   }
 }
