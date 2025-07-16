@@ -1807,17 +1807,12 @@
     "@vue/compiler-dom" "3.5.17"
     "@vue/shared" "3.5.17"
 
-"@vue/devtools-api@^6.6.1":
-  version "6.6.3"
-  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.6.3.tgz#b23a588154cba8986bba82b6e1d0248bde3fd1a0"
-  integrity sha512-0MiMsFma/HqA6g3KLKn+AGpL1kgKhFWszC9U29NfpWK5LE7bjeXxySWJrOJ77hBz+TBrBQ7o4QJqbPbqbs8rJw==
-
 "@vue/devtools-api@^6.6.4":
   version "6.6.4"
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.6.4.tgz#cbe97fe0162b365edc1dba80e173f90492535343"
   integrity sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==
 
-"@vue/devtools-api@^7.7.2":
+"@vue/devtools-api@^7.5.2", "@vue/devtools-api@^7.7.2":
   version "7.7.7"
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-7.7.7.tgz#5ef5f55f60396220725a273548c0d7ee983d5d34"
   integrity sha512-lwOnNBH2e7x1fIIbVT7yF5D+YWhqELm55/4ZKf45R9T8r9dE2AIOy8HKjfqzGsoTHFbWbr337O4E0A0QADnjBg==
@@ -6103,12 +6098,12 @@ validate-npm-package-license@^3.0.4:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vee-validate@^4.12.4:
-  version "4.13.1"
-  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.13.1.tgz#fce6cadc0980436e09b605e2565aff4fc26ef524"
-  integrity sha512-JAlUWTBHg0z66n+v66mrtE9IC1xmVCggzpyc7UXCNkizVok8Zgt1VAVjobSxA/0N19Zn6v6hRfjoYciYH/Z11Q==
+vee-validate@^4.15.1:
+  version "4.15.1"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.15.1.tgz#66e787e88916baa05f42e53bc0848e0878d50f91"
+  integrity sha512-DkFsiTwEKau8VIxyZBGdO6tOudD+QoUBPuHj3e6QFqmbfCRj1ArmYWue9lEp6jLSWBIw4XPlDLjFIZNLdRAMSg==
   dependencies:
-    "@vue/devtools-api" "^6.6.1"
+    "@vue/devtools-api" "^7.5.2"
     type-fest "^4.8.3"
 
 vite-dev-rpc@^1.1.0:
