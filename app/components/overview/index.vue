@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Form, Field } from "vee-validate";
-import Input from "~/components/forms/input/input.vue";
-import { useCounterStore } from "~/stores/counter";
+import Input from "../forms/input/input.vue";
+import { useCounterStore } from "~/composables/custom";
 const count2 = reactive({ count: 0 });
 
 const { data, onChange } = useCustom();
@@ -24,7 +24,7 @@ const handleSubmit = (e: any) => {
       </Form>
       <p class="mt-4 text-gray-400">The Nuxt.js boilerplate</p>
       <button
-        class="bg-pink-600 py-2 px-4 rounded mt-4"
+        class="bg-pink-600 py-2 px-4 rounded-sm mt-4"
         @click="counter.increment"
       >
         Click {{ counter.count }}
